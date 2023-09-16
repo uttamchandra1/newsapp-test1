@@ -1,0 +1,71 @@
+.homediv{
+  background-color: rgba(46, 65, 78, 0.87);
+}
+
+.home{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20%;
+    width: 50%;
+    margin-top: 1%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+   
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    height: 360px;
+    width: 640px;
+}
+.div-article p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* CSS */
+.button {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5%;
+  min-height: 60px;
+  max-width: 10rem;
+  outline: none;
+  
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button:disabled {
+  pointer-events: none;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

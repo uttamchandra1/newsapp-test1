@@ -1,0 +1,16 @@
+.navbar{
+    font-family: 'Poppins', sans-serif;
+
+    background: black;
+    color: #fff;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navbar a{
+    margin-left: 50px;
+    font-size: 15px;
+    font-weight: 400;
+}
